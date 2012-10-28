@@ -1,0 +1,49 @@
+body 
+{ 
+	background: #F9F9F9;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#content
+{
+	padding: 25px;
+	min-width: 760px;
+}
+	
+#content h1 
+{ 
+	text-shadow: none; 
+}
+
+#content table { margin: 0; }
+#content table tr th,
+#content table tr td
+{
+	padding: 8px 12px;
+	
+} 
+
+#content table tr th,
+#content table tr td
+{
+	border: 1px solid #999;
+	font-family: "Courier New", monospace;
+}
+
+#content table tr th 
+{
+	background-color: #666; 
+	color: #FFF; 
+	font-weight: normal; 
+	text-align: left; 
+}
+	
+#content table tr td 
+{ 
+	background-color: #FFF; 
+	font-weight: normal; 
+}
+
+#content .test_result { margin-bottom: 25px; }
+
+#content pre { margin-bottom: 0; }
