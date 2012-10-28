@@ -27,6 +27,10 @@ class Tests extends MX_Controller {
 		{
 			$this->run_all($module);
 		}
+		elseif ($controller == 'cli')
+		{
+			$this->run_all($module, 'cli');
+		}
 		else
 		{
 			$data['title'] = $module.'/'.$controller;
