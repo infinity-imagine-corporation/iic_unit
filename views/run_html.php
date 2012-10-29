@@ -26,10 +26,8 @@ $(function()
 	<h2 class="red">
 		<?php echo $failed ?> FAILURE<?php echo ($failed > 1) ? 'S' : '' ?>
 		<span class="text_12 normal lite_gray">
-			( <?php echo count($module_result_list) ?> test, 
-			<?php echo $total_assertions ?> assertion, 
-			<?php echo $passed ?> passed, 
-			<?php echo $failed ?> failed )
+			( <?php echo count($module_result_list) ?> tests, 
+			<?php echo $total_assertions ?> assertions )
 		</span>
 	</h2>
 	<?php else: ?>

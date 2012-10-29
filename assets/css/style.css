@@ -15,12 +15,14 @@ body
 	text-shadow: none; 
 }
 
-#content table { margin: 0; }
+#content ul { margin: 0px 0px 10px 0px; }
+#content li { list-style: circle; }
+
+#content table { margin: 0px; }
 #content table tr th,
 #content table tr td
 {
 	padding: 8px 12px;
-	
 } 
 
 #content table tr th,
